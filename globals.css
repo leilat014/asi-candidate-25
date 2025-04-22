@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: #fff; 
+  color: #000; 
+  font-family: 'Soleil', sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1, .title {
+  color: #001f54;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Soleil', sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  padding-bottom: 1.6rem;
+  color: #001f54;
+  font-family: 'Soleil', sans-serif;
+  font-weight: 700; 
+  font-size: 1.8rem;
+}
+
+button, .btn-disabled {
+  padding: 16px 8px;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4CAF50; 
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-disabled {
+  background-color: #8C8C8C;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 9px 0;
+  padding: 16px 8px;
+  color: #000; 
+  border: 1px solid #4CAF50; 
+}
+
+.li-hover:hover {
+  background-color: #4CAF50; 
+  color: #fff; 
+}
+
+.li-selected {
+  color: #fff;
+  background-color: #4CAF50; 
+}
+
+.container {
+  max-width: 740px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.quiz-container {
+  background-color: #fff; 
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  border: 4px solid #001f54;
+}
+
+.container p {
+  padding: 8px 0;
+}
