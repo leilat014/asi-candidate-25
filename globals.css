@@ -58,14 +58,18 @@ button, .btn-disabled {
 li {
   list-style-type: none;
   cursor: pointer;
-  margin: 9px 0;
-  padding: 16px 8px;
+  margin: 10px 0;
+  padding: 14px 16px;
+  font-size: 1rem;
   color: #000; 
-  border: 1px solid #4CAF50; 
+  border: 1px solid #000; 
+  border-radius: 6px;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .li-hover:hover {
-  background-color: #4CAF50; 
+  background-color: #001f54; 
   color: #fff; 
 }
 
